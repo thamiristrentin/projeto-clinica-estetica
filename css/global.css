@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: var(--preto);
+}
+
+.wrap-header, .texto-sobre-mim, .servicos {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+#servicos {
+    margin: 0 auto;
+}
+
+:root {
+    --preto: #4B4B4B;
+    --bege: #C8A165;
+    --vermelho: #62240F;
+    --marrom: #9E643C;
+    --branco: #FFFFFF;
+}
+
+@font-face {
+    font-family: Poppins-Black;
+    src: url("../fontes/Poppins-Black.ttf");
+}
+
+@font-face {
+    font-family: Poppins-ExtraLight;
+    src: url("../fontes/Poppins-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: Poppins-Light;
+    src: url("../fontes/Poppins-Light.ttf");
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url("../fontes/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: Poppins-SemiBold;
+    src: url("../fontes/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: UbuntuSans_Condensed-ExtraBold;
+    src: url("../fontes/UbuntuSans_Condensed-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: UbuntuSans_Condensed-Medium;
+    src: url("../fontes/UbuntuSans_Condensed-Medium.ttf");
+}
+
+@font-face {
+    font-family: UbuntuSans-Bold;
+    src: url("../fontes/UbuntuSans-Bold.ttf");
+}
+
+@font-face {
+    font-family: UbuntuSans-ExtraBold;
+    src: url("../fontes/UbuntuSans-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: UbuntuSans-Light;
+    src: url("../fontes/UbuntuSans-Light.ttf");
+}
+
+@font-face {
+    font-family: UbuntuSans-Regular;
+    src: url("../fontes/UbuntuSans-Regular.ttf");
+}

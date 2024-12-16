@@ -1,0 +1,198 @@
+header {
+    height: 100vh;
+    background: linear-gradient(#fde9d1, #FFFFFF);
+    position: relative;
+    z-index: 1;
+}
+
+.wrap-header {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 15rem;
+    gap: 1.1rem;
+}
+
+.juliana {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.wrap-juliana {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.apresentacao h1 {
+    font: 3.12rem 'UbuntuSans_Condensed-ExtraBold', sans-serif;
+    color: var(--marrom);
+    text-transform: uppercase;
+}
+
+.apresentacao h2 {
+    font: 2.25rem 'UbuntuSans-ExtraBold', sans-serif;
+    color: var(--bege);
+    text-transform: capitalize;
+}
+
+.apresentacao p {
+    font: 1.5rem 'UbuntuSans-Regular', sans-serif;
+}
+
+.chamada {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.wrap-texto-chamada {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.chamada h1 {
+    font: 3rem 'UbuntuSans_Condensed-ExtraBold', sans-serif;
+    color: var(--marrom);
+    text-transform: uppercase;
+}
+
+.chamada p {
+    font: 2rem 'UbuntuSans-Light', sans-serif;
+    color: var(--bege);
+    text-transform: capitalize;
+}
+
+.botao-chamada button {
+    font: 2.5rem 'UbuntuSans-Bold', sans-serif;
+    text-transform: capitalize;
+    border: none;
+    background-color: var(--bege);
+    color: var(--branco);
+    padding: 1rem 3rem;
+    border-radius: 20px;
+    box-shadow: 4px 5px 6px 0px #00000059;
+}
+
+.point-down {
+    text-align: center;
+    padding-top: 2.1rem;
+}
+
+.point-down img {
+    width: 4.5rem;
+}
+
+.img-principal {
+    position: absolute;
+    bottom: -0.3rem;
+    right: 50%;
+    transform: translate(50%);
+    z-index: -1;
+    overflow: hidden;
+    padding-left: 63rem;
+}
+
+.img-principal img {
+    width: 40rem;
+}
+
+.sobre-mim {
+    background-color: var(--vermelho);
+    height: min-content;
+    display: flex;
+}
+
+.img-sobre {
+    position: absolute;
+    bottom: -1rem;
+    left: 9rem;
+}
+
+.img-sobre img {
+    width: 28rem;
+}
+
+.texto-sobre-mim {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.text {
+    padding: 4rem 9rem 4rem 32rem;
+}
+
+.texto-sobre-mim h1 {
+    font: 4.37rem 'Poppins-SemiBold', sans-serif;
+    color: var(--branco);
+    text-transform: capitalize;
+}
+
+.texto-sobre-mim p {
+    font: 1.75rem 'Poppins-ExtraLight', sans-serif;
+    color: var(--branco);
+}
+
+.servicos {
+    padding: 8rem 15rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.servico {
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+.img-servicos img {
+    max-width: 21rem;
+    border-radius: 100px;
+    border: solid 14px var(--bege);
+}
+
+.descricao-servicos {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.descricao-servicos h1 {
+    font: 2rem 'Poppins-SemiBold', sans-serif;
+}
+
+.descricao-servicos p, ul li {
+    font: 1.5rem 'Poppins-ExtraLight', sans-serif;
+}
+
+.descricao-servicos ul {
+    padding-left: 3rem;
+}
+
+#bold {
+    font-family: 'Poppins-Regular', sans-serif;
+}
+
+.wrap-descricao {
+    max-width: 62rem;
+}
