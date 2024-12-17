@@ -4,7 +4,12 @@
     color: var(--preto);
 }
 
-.wrap-header, .texto-sobre-mim, .servicos {
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.wrap-header, .texto-sobre-mim, .servicos, .cta, .locali, .footer {
     max-width: 1920px;
     margin: 0 auto;
 }
@@ -74,4 +79,9 @@
 @font-face {
     font-family: UbuntuSans-Regular;
     src: url("../fontes/UbuntuSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: Poppins-SemiBoldItalic;
+    src: url("../fontes/Poppins-SemiBoldItalic.ttf");
 }

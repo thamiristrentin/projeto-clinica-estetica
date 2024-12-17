@@ -1,0 +1,925 @@
+@media screen and (max-width: 480px) {
+    .wrap-header, .texto-sobre-mim, .servicos, .cta, .locali, .footer {
+        padding: 0rem 4.06rem;
+    }
+
+    header {
+        height: min-content;
+        padding-bottom: 3rem;
+    }
+
+    .wrap-header {
+        padding-bottom: 2rem;
+    }
+
+    .img-principal {
+        padding-left: 17rem;
+    }
+
+    .img-principal img {
+        width: 26rem;
+        opacity: 0.9;
+        filter: brightness(0.6);
+    }
+
+    .logo {
+        padding-top: 1.5rem;
+    }
+
+    .logo img {
+        width: 20rem;
+    }
+
+    .apresentacao {
+        padding: 2rem 0rem;
+        gap: 1rem;
+    }
+
+    .apresentacao h1 {
+        font-size: 2rem;
+    }
+
+    .apresentacao h2 {
+        font-size: 1.8rem;
+    }
+
+    .apresentacao p {
+        font-size: 1.3rem;
+    }
+
+    .wrap-texto-chamada {
+        gap: 0.5rem;
+    }
+
+    .chamada h1 {
+        font-size: 2rem;
+        text-align: left;
+        text-shadow: 1px 1px 7px #0000002d;
+    }
+
+    .chamada p {
+        font-size: 1.3rem;
+        text-align: left;
+    }
+
+    .botao-chamada button {
+        font-size: 1.5rem;
+    }
+
+    .texto-sobre-mim {
+        gap: 1rem;
+        z-index: 1;
+    }
+
+    .texto-sobre-mim h1 {
+        font-size: 2rem;
+    }
+
+    .texto-sobre-mim p {
+        font-size: 0.9rem;
+    }
+
+    .img-sobre {
+        left: 50%;
+        transform: translate(-50%);
+        padding-left: 11rem;
+        z-index: -1;
+    }
+
+    .img-sobre img {
+        width: 15rem;
+        opacity: 0.9;
+        filter: brightness(0.6);
+        transform: scaleX(-1);
+    }
+
+    .text {
+        padding: 3rem 0;
+    }
+
+    .servicos {
+        padding: 4rem 0rem;
+    }
+
+    .servico {
+        flex-direction: column;
+        gap: 2rem;
+        max-width: min-content;
+    }
+
+    .img-servicos img {
+        max-width: 15rem;
+        border-radius: 70px;
+        border-width: 8px;
+    }
+
+    .descricao-servicos {
+        gap: 1rem;
+    }
+
+    .descricao-servicos h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .descricao-servicos p, ul li {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    #cta {
+        padding: 5rem 0rem;
+    }
+
+    .cta h1 {
+        font-size: 2.3rem;
+    }
+
+    .cta p {
+        font-size: 1.3rem;
+    }
+
+    .botoes-cta {
+        gap: 2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .botao button {
+        font-size: 1.5rem;
+    }
+
+    .botao button img {
+        width: 2rem;
+    }
+
+    .locali {
+        flex-direction: column;
+        padding: 5rem 0rem;
+    }
+
+    .mapa img {
+        width: 20rem;
+    }
+
+    .infos {
+        gap: 2rem;
+    }
+
+    .endereco p, .contatos p, .horarios h1, .horarios p {
+        font-size: 1.1rem;
+    }
+
+    .contatos {
+        gap: 0.6rem;
+    }
+
+    .contatos img {
+        width: 1.8rem;
+    }
+
+    footer {
+        border-width: 9px;
+    }
+
+    .footer {
+        padding: 2rem 4rem;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer p {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .wrap-header, .texto-sobre-mim, .servicos, .cta, .locali, .footer {
+        padding: 0rem 8.96rem;
+    }
+
+    header {
+        height: min-content;
+        padding-bottom: 3rem;
+    }
+
+    .logo img {
+        width: 30rem;
+    }
+
+    .img-principal {
+        padding-left: 30rem;
+    }
+
+    .img-principal img {
+        width: 30rem;
+        opacity: 0.9;
+        filter: brightness(0.5);
+    }
+
+    .apresentacao {
+        padding: 6rem 0rem;
+        gap: 1.1rem;
+    }
+
+    .apresentacao h1 {
+        font-size: 2.4rem;
+    }
+
+    .apresentacao h2 {
+        font-size: 2rem;
+    }
+
+    .apresentacao p {
+        font-size: 1.5rem;
+    }
+
+    .wrap-texto-chamada {
+        gap: 0.5rem;
+    }
+
+    .chamada h1 {
+        font-size: 2.2rem;
+        text-shadow: 1px 1px 7px #0000002d;
+    }
+
+    .chamada p {
+        font-size: 1.5rem;
+    }
+
+    .botao-chamada button {
+        font-size: 1.8rem;
+    }
+
+    .texto-sobre-mim {
+        z-index: 1;
+    }
+
+    .texto-sobre-mim h1 {
+        font-size: 2.8rem;
+    }
+
+    .texto-sobre-mim p {
+        font-size: 1.3rem;
+    }
+
+    .img-sobre {
+        left: 50%;
+        transform: translate(-50%);
+        padding-left: 25rem;
+        z-index: -1;
+    }
+
+    .img-sobre img {
+        width: 20rem;
+        opacity: 0.9;
+        filter: brightness(0.6);
+        transform: scaleX(-1);
+    }
+
+    .text {
+        padding: 3rem 0;
+    }
+
+    .servicos {
+        padding: 3rem 0 5rem 0;
+    }
+
+    .servico {
+        flex-direction: column;
+        gap: 2rem;
+        width: 30.06rem;
+        padding-top: 2.5rem;
+    }
+
+    .img-servicos img {
+        max-width: 23rem;
+        border-radius: 80px;
+        border-width: 10px;
+    }
+
+    .descricao-servicos {
+        gap: 1rem;
+    }
+
+    .descricao-servicos h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .descricao-servicos p, ul li {
+        font-size: 1.3rem;
+    }
+
+    #cta {
+        padding: 4rem 0rem;
+    }
+
+    .cta h1 {
+        font-size: 2.6rem;
+    }
+
+    .cta p {
+        font-size: 1.4rem;
+    }
+
+    .botoes-cta {
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .botao button {
+        font-size: 1.7rem;
+    }
+
+    .botao button img {
+        width: 2.5rem;
+    }
+
+    .locali {
+        flex-direction: column;
+        padding: 5rem 0rem;
+        gap: 2.5rem;
+    }
+
+    .mapa img {
+        width: 30rem;
+    }
+
+    .infos {
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .endereco p, .contatos p, .horarios h1, .horarios p {
+        font-size: 1.4rem;
+    }
+
+    .contatos {
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .contatos img {
+        width: 1.8rem;
+    }
+
+    footer {
+        border-width: 9px;
+    }
+
+    .footer {
+        padding: 3rem 4rem;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer p {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .wrap-header, .texto-sobre-mim, .servicos, .cta, .locali, .footer {
+        padding: 0rem 6.96rem;
+    }
+    
+    header {
+        height: min-content;
+        padding-bottom: 3rem;
+    }
+
+    .logo img {
+        width: 30rem;
+    }
+
+    .img-principal {
+        padding-left: 30rem;
+    }
+
+    .img-principal img {
+        width: 30rem;
+        opacity: 0.9;
+        filter: brightness(0.5);
+    }
+
+    .apresentacao {
+        padding: 6rem 0rem;
+        gap: 1.1rem;
+    }
+
+    .apresentacao h1 {
+        font-size: 2.3rem;
+    }
+
+    .apresentacao h2 {
+        font-size: 2rem;
+    }
+
+    .apresentacao p {
+        font-size: 1.5rem;
+    }
+
+    .wrap-texto-chamada {
+        gap: 0.5rem;
+    }
+
+    .chamada h1 {
+        font-size: 2.2rem;
+        text-shadow: 1px 1px 7px #0000002d;
+    }
+
+    .chamada p {
+        font-size: 1.5rem;
+    }
+
+    .botao-chamada button {
+        font-size: 1.8rem;
+    }
+
+    .texto-sobre-mim {
+        z-index: 1;
+    }
+
+    .texto-sobre-mim h1 {
+        font-size: 2.8rem;
+    }
+
+    .texto-sobre-mim p {
+        font-size: 1.3rem;
+    }
+
+    .img-sobre {
+        left: 50%;
+        transform: translate(-50%);
+        padding-left: 25rem;
+        z-index: -1;
+    }
+
+    .img-sobre img {
+        width: 20rem;
+        opacity: 0.9;
+        filter: brightness(0.6);
+        transform: scaleX(-1);
+    }
+
+    .text {
+        padding: 3rem 0;
+    }
+
+    .servicos {
+        padding: 3rem 0 5rem 0;
+    }
+
+    .servico {
+        flex-direction: column;
+        gap: 2rem;
+        width: 48.06rem;
+        padding-top: 2.5rem;
+    }
+
+    .img-servicos img {
+        max-width: 23rem;
+        border-radius: 80px;
+        border-width: 10px;
+    }
+
+    .descricao-servicos {
+        gap: 1rem;
+    }
+
+    .descricao-servicos h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .descricao-servicos p, ul li {
+        font-size: 1.3rem;
+    }
+
+    #cta {
+        padding: 4rem 0rem;
+    }
+
+    .cta h1 {
+        font-size: 2.6rem;
+    }
+
+    .cta p {
+        font-size: 1.4rem;
+    }
+
+    .botoes-cta {
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .botao button {
+        font-size: 1.7rem;
+    }
+
+    .botao button img {
+        width: 2.5rem;
+    }
+
+    .locali {
+        flex-direction: column;
+        padding: 5rem 0rem;
+        gap: 2.5rem;
+    }
+
+    .mapa img {
+        width: 30rem;
+    }
+
+    .infos {
+        gap: 2rem;
+        text-align: center;
+    }
+
+    .endereco p, .contatos p, .horarios h1, .horarios p {
+        font-size: 1.4rem;
+    }
+
+    .contatos {
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .contatos img {
+        width: 1.8rem;
+    }
+
+    footer {
+        border-width: 9px;
+    }
+
+    .footer {
+        padding: 3rem 4rem;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer p {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .wrap-header, .texto-sobre-mim, .servicos, .cta, .locali, .footer {
+        padding: 0rem 6.46rem;
+    }
+    
+    header {
+        height: min-content;
+        padding-bottom: 3rem;
+    }
+
+    .logo img {
+        width: 33rem;
+    }
+
+    .img-principal {
+        padding-left: 40rem;
+    }
+
+    .img-principal img {
+        width: 30rem;
+        opacity: 0.9;
+        filter: brightness(0.5);
+    }
+
+    .apresentacao {
+        padding: 6rem 0rem;
+        gap: 1.1rem;
+    }
+
+    .apresentacao h1 {
+        font-size: 2.3rem;
+    }
+
+    .apresentacao h2 {
+        font-size: 2rem;
+    }
+
+    .apresentacao p {
+        font-size: 1.5rem;
+    }
+
+    .wrap-texto-chamada {
+        gap: 0.5rem;
+    }
+
+    .chamada h1 {
+        font-size: 2.7rem;
+        text-shadow: 1px 1px 7px #0000002d;
+    }
+
+    .chamada p {
+        font-size: 1.7rem;
+    }
+
+    .botao-chamada button {
+        font-size: 1.9rem;
+    }
+
+    .texto-sobre-mim {
+        z-index: 1;
+    }
+
+    .texto-sobre-mim h1 {
+        font-size: 2.8rem;
+    }
+
+    .texto-sobre-mim p {
+        font-size: 1.4rem;
+    }
+
+    .img-sobre {
+        z-index: -1;
+        left: 4rem;
+    }
+
+    .img-sobre img {
+        width: 29rem;
+        opacity: 0.9;
+        filter: brightness(0.6);
+    }
+
+    .text {
+        padding: 5rem 0 3rem 17rem;
+    }
+
+    .servicos {
+        padding: 3rem 0 5rem 0;
+    }
+
+    .servico {
+        gap: 2rem;
+        width: 61.87rem;
+        padding-top: 2.5rem;
+    }
+
+    .img-servicos img {
+        max-width: 23rem;
+        border-radius: 80px;
+        border-width: 10px;
+    }
+
+    .descricao-servicos {
+        gap: 0.9rem;
+    }
+
+    .descricao-servicos h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .descricao-servicos p, ul li {
+        font-size: 1.3rem;
+    }
+
+    #cta {
+        padding: 4rem 0rem;
+    }
+
+    .cta h1 {
+        font-size: 2.6rem;
+    }
+
+    .cta p {
+        font-size: 1.4rem;
+    }
+
+    .botoes-cta {
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .botao button {
+        font-size: 1.7rem;
+    }
+
+    .botao button img {
+        width: 2.5rem;
+    }
+
+    .locali {
+        padding: 5rem 0rem;
+        gap: 2.5rem;
+    }
+
+    .mapa img {
+        width: 33rem;
+    }
+
+    .infos {
+        gap: 2rem;
+    }
+
+    .endereco p, .contatos p, .horarios h1, .horarios p {
+        font-size: 1.4rem;
+    }
+
+    .contatos {
+        gap: 1rem;
+    }
+
+    .contatos img {
+        width: 1.8rem;
+    }
+
+    footer {
+        border-width: 9px;
+    }
+
+    .footer {
+        padding: 3rem 4rem;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .footer p {
+        font-size: 1.1rem;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1600px) {
+    .wrap-header, .texto-sobre-mim, .servicos, .cta, .locali, .footer {
+        padding: 0rem 12.46rem;
+    }
+    
+    header {
+        height: min-content;
+        padding-bottom: 3rem;
+    }
+
+    .logo img {
+        width: 40rem;
+    }
+
+    .img-principal {
+        padding-left: 53rem;
+    }
+
+    .img-principal img {
+        width: 35rem;
+    }
+
+    .apresentacao {
+        padding: 7rem 0rem;
+        gap: 1.1rem;
+    }
+
+    .apresentacao h1 {
+        font-size: 3rem;
+    }
+
+    .apresentacao h2 {
+        font-size: 2.5rem;
+    }
+
+    .apresentacao p {
+        font-size: 1.8rem;
+    }
+
+    .wrap-texto-chamada {
+        gap: 1rem;
+    }
+
+    .chamada h1 {
+        font-size: 3rem;
+        text-shadow: 1px 1px 7px #0000002d;
+    }
+
+    .chamada p {
+        font-size: 2.1rem;
+    }
+
+    .botao-chamada button {
+        font-size: 2.5rem;
+    }
+
+    .texto-sobre-mim {
+        z-index: 1;
+    }
+
+    .texto-sobre-mim h1 {
+        font-size: 4rem;
+    }
+
+    .texto-sobre-mim p {
+        font-size: 1.7rem;
+    }
+
+    .img-sobre {
+        z-index: -1;
+        left: 7rem;
+    }
+
+    .img-sobre img {
+        width: 33rem;
+        opacity: 0.9;
+        filter: brightness(0.6);
+    }
+
+    .text {
+        padding: 5rem 0 5rem 18rem;
+    }
+
+    .servicos {
+        gap: 4rem;
+        padding: 7rem 0;
+    }
+
+    .servico {
+        gap: 2rem;
+        width: 75.06rem;
+    }
+
+    .img-servicos img {
+        max-width: 25rem;
+        border-radius: 80px;
+        border-width: 12px;
+    }
+
+    .descricao-servicos {
+        gap: 1rem;
+    }
+
+    .descricao-servicos h1 {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .descricao-servicos p, ul li {
+        font-size: 1.6rem;
+    }
+
+    #cta {
+        padding: 4rem 0rem;
+    }
+
+    .locali {
+        padding: 5rem 0rem;
+        gap: 4rem;
+    }
+
+    .contatos {
+        gap: 1rem;
+    }
+
+    footer {
+        border-width: 9px;
+    }
+
+    .footer {
+        padding: 3rem 4rem;
+    }
+
+    .footer p {
+        font-size: 1.6rem;
+    }
+}
+
+@media screen and (min-width: 1601px) and (max-width: 1900px) {
+    .wrap-header, .texto-sobre-mim, .servicos, .cta, .locali, .footer {
+        padding: 0rem 9.34rem;
+    }
+    
+    header {
+        height: min-content;
+        padding-bottom: 3rem;
+    }
+
+    .img-sobre {
+        left: 12rem;
+        z-index: -1;
+    }
+
+    .img-sobre img {
+        width: 33rem;
+        opacity: 0.9;
+        filter: brightness(0.6);
+    }
+
+    .texto-sobre-mim {
+        z-index: 1;
+    }
+
+    .text {
+        padding: 5rem 5rem 5rem 28rem;
+    }
+
+    .servicos {
+        padding: 8rem 15rem;
+    }
+
+    .locali {
+        padding: 6rem 0rem;
+    }
+
+    .footer {
+        padding: 3rem 14rem;
+    }
+}
